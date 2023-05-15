@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.button {
+    width: 150px;
+    height: 50px;
+    transition: 0.2s;
+    background: yellowgreen;
+    border: 0;
+    color: #bc28ff;
+    cursor: pointer;
+}
+.button:hover {
+    width: 200px;
+    height: 75px;
+    transition: 0.2s;
+    background: #ffd706;
+    font-size: large;
+}
